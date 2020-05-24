@@ -1,0 +1,31 @@
+{
+  "name": "full-stack-react-app",
+  "version": "1.0.0",
+  "description": "Full stack react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWoops/Full-Stack-React-App.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "The Woops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWoops/Full-Stack-React-App/issues"
+  },
+  "homepage": "https://github.com/TheWoops/Full-Stack-React-App#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
