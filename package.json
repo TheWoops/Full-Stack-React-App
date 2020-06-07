@@ -4,7 +4,9 @@
   "description": "Full stack react app",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server"
+    "dev": "concurrently \"npm run server\" \"npm run client\"  ",
+    "server": "nodemon server",
+    "client": "npm start --prefix client"
   },
   "repository": {
     "type": "git",

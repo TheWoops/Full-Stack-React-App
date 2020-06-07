@@ -9,10 +9,14 @@ class Cities {
   }
 
   static insert(city, callback) {
-    db.query("INSERT INTO cities (city_name) VALUES ($1)", city, (err, res) => {
-      if (err.error) return callback(err);
-      callback(res);
-    });
+    db.query(
+      "INSERT INTO cities (city_name) VALUES ($1)",
+      [city],
+      (err, res) => {
+        if (err.error) return callback(err);
+        callback(res);
+      }
+    );
   }
 }
 
